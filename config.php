@@ -4,8 +4,8 @@ session_start();
 // Configuración de la base de datos
 $host = "localhost";
 $dbname = "e_commerce";
-$username = "JAJIntegratedS";
-$password = "@JAJCrip17"
+$username = "root";
+$password = ""
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username);
@@ -15,3 +15,4 @@ try {
 }
 
 ?>
+
